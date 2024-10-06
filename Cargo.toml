@@ -1,0 +1,12 @@
+[package]
+name = "ke2daira"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust implementation of ke2daira"
+repository = "https://github.com/otariidae/ke2daira.rs"
+license = "MIT"
+keywords = ["japanese"]
+categories = ["text-processing"]
+
+[dependencies]
+lindera = { version = "0.32.2", features = ["ipadic"] }
